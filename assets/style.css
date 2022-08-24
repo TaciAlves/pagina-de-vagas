@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-links a {
+    margin-left: 32px;
+    color:  #667085;
+}
+
+.btn-1 {
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: 1px solid #667085;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background: #aeb2ba;
+    transition: all .3s ease-in;
+}
+
+.btn-2 {
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background: #8E2424;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #b94747 ;
+    transition: all .3s ease-in;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 96px;
+}
+
+.sobre h3 {
+    color: #8E2424;
+    font-size: 18px;
+}
+
+.sobre-title {
+    margin-top: 24px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #101828;
+}
+
+.sobre-text {
+    margin-top: 36px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 96px 96px 96px;
+}
+
+.dados-number {
+    font-size: 50px;
+    color: #8E2424;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.dados-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.dados-description {
+    font-size: 16px;
+    color: #667085;
+    margin-top: 8px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.talentos-text p {
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #b94747;
+    padding: 3px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.talentos-text h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.talentos-text h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #667085;
+} 
+
+.talentos-img {
+    margin-bottom: 30px;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.vaga h3 {
+    font-size: 25px;
+    margin: 20px auto;
+}
+
+.titulo-vaga {
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.informacoes p {
+    color: #667085;
+    font-weight: bold;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 64px 64px;
+    background: rgba(196, 25, 25, 0.03);
+}
+
+.depoimento-title p {
+    color: #8E2424;
+    font-weight: bold;
+    margin-bottom: 25px;
+    background: rgba(196, 25, 25, 0.03);
+
+}
+
+.depoimento-text {
+    font-size: 15px;
+    margin-bottom: 30px;
+    background: rgba(196, 25, 25, 0.03);
+}
+
+.depoimento-perfil {
+    background: rgba(196, 25, 25, 0.03);
+
+}
+
+.depoimento-perfil img {
+    border-radius: 50%;
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    background: rgba(196, 25, 25, 0.03);
+
+}
+
+.depoimento-perfil h3 {
+    margin-top: 15px;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+
+}
+
+.depoimento-perfil p {
+    color: #667085;
+    background: rgba(196, 25, 25, 0.03);
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.form p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #48505f;
+}
+
+.form-email input {
+  width: 250px;
+  height: 45px;
+  align-items: center;
+  outline: none;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #667085;
+}
+
+.form-email button {
+    width: 110px;
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #b94747;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.form-email button:hover {
+    background: #8E2424;
+    transition: all .3s ease;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .nav-links a {
+       margin-left: 15px;
+       font-size: 14px;
+    }
+
+    .btn-1 {
+        width: 100px;
+        height: 40px;
+    }
+
+    .btn-2 {
+        width: 100px;
+        height: 40px;
+    }
+
+    .sobre-title {
+        font-size: 28px;
+    }
+
+    .sobre-text {
+        font-size: 15px;
+    }
+    
+    .dados {
+        flex-direction: column;
+        padding: 80px 80px 80px;
+    }
+
+    .dados-number {
+        margin-top: 25px;
+    }
+
+    .talentos-img img {
+        width: 630px;
+    }
+
+    .depoimento-text {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 376px) {
+    .nav-logo img {
+        width: 80px;
+    }
+    
+    .nav-links a {
+        margin-left: 15px;
+        font-size: 10px;
+        font-weight: bold;
+     }
+ 
+     .btn-1 {
+        flex-direction: column;
+         width: 90px;
+         height: 30px;
+        margin-bottom: 10px;
+     }
+ 
+     .btn-2 {
+        flex-direction: column;
+         width: 90px;
+         height: 30px;
+     }
+ 
+     .sobre-title {
+         font-size: 19px;
+         line-height: 28px;
+         text-align: center;
+         
+     }
+ 
+     .sobre-text {
+         font-size: 16px;
+         text-align: center;
+         font-weight: bold;
+     }
+     
+     .dados {
+         flex-direction: column;
+         padding: 80px 80px 80px;
+     }
+ 
+     .dados-number {
+         margin-top: 25px;
+     }
+
+     .talentos-text h4 {
+        text-align: center;
+        padding: 5px;
+     }
+ 
+     .talentos-img img {
+         width: 380px;
+         padding: 5px;
+     }
+ 
+     .depoimento-title {
+        text-align: center;
+     }
+
+     .depoimento-text {
+         font-size: 11px;
+         text-align: center;
+     }
+
+     .form h2 {
+        text-align: center;
+     }
+
+     .form p {
+        text-align: center;
+     }
+
+     .form-email {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .form-email input {
+        margin-bottom: 8px;
+     }
+
+     .form-email button {
+        margin: 0 auto;
+     }
+
+     footer {
+        font-size: 18px;
+        text-align: center;
+        color: #48505f;
+     }
+}
